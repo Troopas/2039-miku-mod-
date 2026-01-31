@@ -1,0 +1,341 @@
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 25,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 20,
+        "fields": {
+            "year": 2016,
+            "display_year": "2039 Miku",
+            "summary": "<p>With the downfill of the Hunter Biden Presidency, Democrats are stuck between a rock and a hard place. Will they abandon their former President and go with the politically unknown Vocaloid star? Or will they turn to their old enemies, the GOP, lead by Kasane Teto. To muddy the waters further, anti vocal-synthesizer candidate Akita Neru is also running to hopefully split the vote and win the support from middle America. You must navigate this election season carefully if you want to become the next President.",
+            "image_url": "https://i.imgur.com/GKnZKQv.gif",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://i.imgur.com/FjI5H7e.gif",
+            "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "../static/images/2012-no-majority.jpg"
+        }
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 20,
+        "year": 2016,
+        "is_premium": 0,
+        "display_year": "2039 Miku"
+    }
+]
+
+campaignTrail_temp.credits = "Troopas"
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 200,
+        "fields": {
+            "first_name": "Hatsune ",
+            "last_name": "Miku",
+            "election": 20,
+            "party": "Democratic Party",
+            "state": "Japan",
+            "priority": 1,
+            "description": "<p>The Vocaloid star and Fortnite character Hatsune Miku has launched her official Presidential campaign. She is running to replace President Hunter Biden, who has been a failure according to critics and a disappointment to most supporters. Can you beat the odds and survive the brutal campaign landscape of 2039, or will you be defeated and get sent back to performing your music.</p>",
+            "color_hex": "#00ece6",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/jZe8OKg.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 202,
+        "fields": {
+            "first_name": "Kagamine",
+            "last_name": "Rin",
+            "election": 20,
+            "party": "Independent",
+            "state": "Japan",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#ffe803",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/6Z2zfhW.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>Kagamine Rin is a fellow Vocaloid and one of your closest friends. She has supported your candidacy from the start and would be a loyal Vice-President. However, there are concerns about picking somebody so close to your personally. Many within the GOP are hoping that you pick Rin, seeing her as an easy candidate to attack.</p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 203,
+        "fields": {
+            "first_name": "Kagamine",
+            "last_name": "Len",
+            "election": 20,
+            "party": "Independent",
+            "state": "Japan",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#e69138",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/AL3wpEo.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>Kagamine Len is a strong candidate who can viciously go after your opponents. Selecting Len might hint towards a campaign filled with mudslinging, however. Len also has the baggage of being a political outsider as you, are you really going to campaign from top to bottom of the ticket as change? Perhaps that's what America wants right now. Good luck to you and go win that election.",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 201,
+        "fields": {
+            "first_name": "Kasane ",
+            "last_name": "Teto",
+            "election": 20,
+            "party": "Republican Party",
+            "state": "Japan",
+            "priority": 1,
+            "description": "<p>Kasane Teto launched her campaign and many people laughed at her, there was no way she could win Iowa they said. Then, there's no way she can win Super Tuesday they said. Once it became clear Teto was an unstoppable menace in the primaries, many within the GOP bargained with her to try and get her to drop out, she didn't. Now the pundits are saying her nomination could throw this huge opportunity for the Republicans to win this fall. Can Teto overcome the bias against her? Good luck in winning this campaign.</p>",
+            "color_hex": "#ff0045",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/fwR2K9f.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 20708,
+        "fields": {
+            "first_name": "Kagamine",
+            "last_name": "Rin",
+            "election": 20,
+            "party": "Independent",
+            "state": "Japan",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#ffe803",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/6Z2zfhW.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>What is Rin doing here? Well, she was none too pleased with Miku's choice of Len over her. She is running on the GOP ticket as a campaign of retribution. She wants to destroy the Miku campaign for overlooking her, she feels as though she would be the perfect candidate. Given all of that, do you think Rin is the safest VP choice? Is there anybody else you could pick instead?",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 20765,
+        "fields": {
+            "first_name": "Kagamine",
+            "last_name": "Len",
+            "election": 20,
+            "party": "Independent",
+            "state": "Japan",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#e69138",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/AL3wpEo.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>What is Len doing here? Well, he was none too pleased with Miku's choice of Rin over him. He is running on the GOP ticket as a campaign of retribution. He wants to destroy the Miku campaign for overlooking him, he feels as though he would be the perfect candidate. Given all of that, do you think Len is the safest VP choice? Is there anybody else you could pick instead?",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 20822,
+        "fields": {
+            "first_name": "Akita",
+            "last_name": "Neru",
+            "election": 20,
+            "party": "Libertarian Party",
+            "state": "Japan",
+            "priority": 1,
+            "description": "<p>Not Playable</p>\n<p>Akita Neru is running out of frustration with the political system. How could it produce two vocal synthesizers in the same election? Neru has had enough of this chicanery and is running as a 3rd party to hopefully split the vote and maybe win over the house delegation of states. Neru has popular support across a lot of conservative voters, worrying the Teto campaign that she could end up splintering the GOP voteshare and end up with a Miku Presidency.</p>",
+            "color_hex": "#ffd543",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/8uPTMwW.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 21044,
+        "fields": {
+            "first_name": "Megurine",
+            "last_name": "Luka",
+            "election": 20,
+            "party": "Independent",
+            "state": "Japan",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#ea9999",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/9RvxIJe.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>Neru asked several people if they would be her running mate. Each and every time they said no. They cited her being hard to work with as reported by CNN where she had a tantrum at her campaign team. Finally, she turned to Megurine Luka. A relatively mature candidate who can help reinforce the image of the Libertarians being the only truly serious candidates this election. Be warned however, the establishment is working against you two.</p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 116439,
+        "fields": {
+            "candidate": 200,
+            "running_mate": 202
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 136500,
+        "fields": {
+            "candidate": 200,
+            "running_mate": 203
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 100418,
+        "fields": {
+            "candidate": 201,
+            "running_mate": 20708
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 159054,
+        "fields": {
+            "candidate": 201,
+            "running_mate": 20765
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 106684,
+        "fields": {
+            "candidate": 20822,
+            "running_mate": 21044
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 20,
+        "candidates": [
+            200,
+            201,
+            20822
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 20,
+        "candidates": [
+            200,
+            201,
+            20822
+        ]
+    }
+]
+
+jet_data = {
+    "headerColor": "#00cecb",
+    "windowColor": "#00cecb",
+    "containerColor": "#ffffff",
+    "innerWindowColor": "#ffffff",
+    "bannerImageUrl": "https://i.imgur.com/McirEF9.png",
+    "backgroundImageUrl": "https://cdn.ibispaint.com/movie/405/408/405408802/image405408802.png",
+    "endingTextColor": "#000000",
+    "customQuote": "",
+    "gameTitle": "The World is Mine"
+}
+
+//#startcode
+
+
+corrr = '\n              <h2>The World is Mine</h2>\n            ';
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#00cecb";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#00cecb";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#ffffff";
+
+document.getElementById("header").src = "https://i.imgur.com/McirEF9.png";
+
+document.body.background = "https://cdn.ibispaint.com/movie/405/408/405408802/image405408802.png";
+
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#ffffff!important;}</style>";
+
+//#endcode
